@@ -271,7 +271,8 @@
             dataType: "json",
             success: function (data) {
                 if (data.code == 200) {
-                    window.location.href = ctx + "/goodsCategory/index";
+                    alert("操作成功！！！")
+                    //window.location.href = ctx + "/goodsCategory/index";
                 } else {
                     alert(data.msg);
                 }

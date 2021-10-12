@@ -1,25 +1,36 @@
 package com.yjxxt.manager.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import com.yjxxt.common.result.BaseResult;
 import com.yjxxt.manager.mapper.GoodsCategoryMapper;
 import com.yjxxt.manager.mapper.GoodsMapper;
 import com.yjxxt.manager.pojo.Goods;
 import com.yjxxt.manager.pojo.GoodsExample;
+import com.yjxxt.manager.query.GoodsQuery;
 import com.yjxxt.manager.service.IGoodsService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 @Service
+@SuppressWarnings("all")
 public class GoodsServiceImpl implements IGoodsService {
     @Autowired
     private GoodsMapper goodsMapper;
 
     @Autowired
     private GoodsCategoryMapper goodsCategoryMapper;
+
+    @Autowired
+    private RedisTemplate redisTemplate;
+
     @Override
     public Integer saveGoods(Goods goods) {
         /**
@@ -52,6 +63,80 @@ public class GoodsServiceImpl implements IGoodsService {
             throw new RuntimeException("商品添加失败!");
         }
         return goods.getGoodsId();
+    }
+
+    /**
+     * 商品分页查询引入动态缓存key
+     *    catId
+     *    brandId
+     *    isOnSale
+     *    flag
+     *    keywords
+     *    pageNum
+     *    pageSize
+     *  1.goods:list:pageNum:1:pageSize:10:catId:1
+     *  2.goods:list:pageNum:1:pageSize:10:brandId:20
+     *  3.goods:list:pageNum:1:pageSize:10:isOnSale:1
+     *  4.goods:list:pageNum:1:pageSize:10:keywords:test
+     *  5.goods:list:pageNum:1:pageSize:10:brandId:20:flag:1:keywords:test
+     */
+    @Override
+    public BaseResult queryGoodsForListPage(GoodsQuery goodsQuery) {
+        StringBuffer goodsListCacheKey = new StringBuffer("goods:list:pageNum:"
+            +goodsQuery.getPageNum()+":pageSize:"+goodsQuery.getPageSize());
+        GoodsExample goodsExample =new GoodsExample();
+        // 设置查询条件
+        GoodsExample.Criteria criteria= goodsExample.createCriteria();
+        if(!(null==goodsQuery.getCatId()|| goodsQuery.getCatId()==0)){
+            criteria.andCatIdEqualTo(goodsQuery.getCatId());
+            goodsListCacheKey.append(":catId:"+goodsQuery.getCatId());
+        }
+        if(null !=goodsQuery.getBrandId()){
+            criteria.andBrandIdEqualTo(goodsQuery.getBrandId());
+            goodsListCacheKey.append(":brandId:"+goodsQuery.getBrandId());
+
+        }
+        if(null !=goodsQuery.getIsOnSale()){
+            criteria.andIsOnSaleEqualTo(goodsQuery.getIsOnSale());
+            goodsListCacheKey.append(":isOnSale:"+goodsQuery.getIsOnSale());
+        }
+        if(null !=goodsQuery.getFlag()){
+            if(goodsQuery.getFlag()==1){
+                // 新品
+                criteria.andIsNewEqualTo((byte)1);
+            }
+            if(goodsQuery.getFlag()==2){
+                // 推荐
+                criteria.andIsRecommendEqualTo((byte)1);
+            }
+            goodsListCacheKey.append(":flag:"+goodsQuery.getFlag());
+        }
+
+        if(StringUtils.isNotBlank(goodsQuery.getKeywords())){
+            criteria.andKeywordsLike("%"+goodsQuery.getKeywords()+"%");
+            goodsListCacheKey.append(":keywords:"+goodsQuery.getKeywords());
+        }
+
+        String goodsListCachekeyStr = goodsListCacheKey.toString();
+        PageInfo<Goods> pageInfo = null;
+        if(redisTemplate.hasKey(goodsListCachekeyStr)){
+            System.out.println("这是从Redis中查询数据......");
+
+            pageInfo =(PageInfo<Goods>) redisTemplate.opsForValue().get(goodsListCachekeyStr);
+            if(pageInfo.getTotal()>0){
+                return BaseResult.success(pageInfo);
+            }
+        }
+
+        System.out.println("这是从数据库中查询数据......");
+        PageHelper.startPage(goodsQuery.getPageNum(),goodsQuery.getPageSize());
+        List<Goods> goods=goodsMapper.selectByExample(goodsExample);
+        pageInfo = new PageInfo<Goods>(goods);
+        if(pageInfo.getTotal()>0){
+            redisTemplate.opsForValue().set(goodsListCachekeyStr,pageInfo);
+        }
+
+        return BaseResult.success(pageInfo);
     }
 
     private void checkParams(String goodsName, String spu, String sku, Integer catId) {

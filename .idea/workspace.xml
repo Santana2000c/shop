@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d1491ba-07c7-4dc9-bcd1-ecc92817eb48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-common/src/main/java/com/yjxxt/common/result/ShopPageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/java/com/yjxxt/portal/controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/java/com/yjxxt/portal/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/css/info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/css/lipin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/css/lr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/css/main.ie6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/css/main.ie7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/css/my.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/1119969_115x115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/1234ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/124a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/124ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/12ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/12sdfv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/214ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/214sas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/21ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/21af.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/21asfa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/21da.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/2asd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/3215wa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/32asd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/addicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/arrow_down.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bank/bank20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/bg_regist.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/big/12da.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/big/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/btn_search.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/c1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cartinforstep.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat2-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat2-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat3-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat3-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat3-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat3-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat4-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat4-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat4-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat4-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_ad1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_ad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_ad3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_ad4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_ad5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad3-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad3-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad3-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad4-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad4-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad4-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad5-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad5-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad5-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_s_ad_2_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/cat_title.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/ddtipbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/defen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/deleteicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/dot1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/dot2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/dot3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/dtb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/f10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/f11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/f12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/f9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/filter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/fs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/ft_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/ft_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/ft_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/gooncat.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/gopay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/hotbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/hotbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/i_cart_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/i_cart_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/i_cart_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/i_cart_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/icon+-.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/index_next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/index_next_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/index_pre.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/index_pre_on.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/jiezhangbtn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/jifenbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/lad1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/lad2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/lad3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/listbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/loginbox.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/loginbox.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/loginbtn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/lpicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/mid/12da.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/mid/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/myanswer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/mytabbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/nav-on.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/nav.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/pd1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/pd_1_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/pd_1_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/pd_1_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/pd_1_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/pwdstrength.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg1-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg1-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg1-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg1-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg2-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg2-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg3-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg3-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg3-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg3-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg4-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg4-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg4-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qg4-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/qzx.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/registerbtn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/righticon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/samllpicbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/scrollbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/shareicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/shiyong.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/slide-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/slide-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/slide-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/slide-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/small/12da.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/small/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/splitter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/splitter2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/splitter3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/sprites.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/star0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/star1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/starbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/startotal.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/step01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/stepend.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/submitsure.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/switch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/tg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/tijiaobtn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/tit_regist.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/u255.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/u257.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/u259.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/images/u261.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/Validate.entry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/Validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/Validate.personal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/doT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/jquery-imgslideshow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/ks-switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/layer/extend/layer.ext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/layer/layer-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/layer/skin/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/layer/skin/layer.ext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/lib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/static/js/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/views/doSearch.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/views/head.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-portal/src/main/resources/views/index.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/ShopRpcProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/config/Elasticsearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/mapper/GoodsCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/pojo/GoodsCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/pojo/GoodsCategoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/service/IGoodsCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/service/ISearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/service/impl/GoodsCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/service/impl/SearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/vo/GoodsCategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/java/com/yjxxt/rpc/vo/GoodsVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shop/shop-rpc-provider/src/main/resources/mapper/GoodsCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/src/main/java/com/yjxxt/manager/controller/GoodsCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/src/main/java/com/yjxxt/manager/controller/GoodsCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/src/main/java/com/yjxxt/manager/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/src/main/java/com/yjxxt/manager/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/src/main/java/com/yjxxt/manager/service/IGoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/src/main/java/com/yjxxt/manager/service/IGoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/src/main/java/com/yjxxt/manager/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/src/main/java/com/yjxxt/manager/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/src/main/resources/views/goods/goodsCategory/goods_category_add.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/src/main/resources/views/goods/goodsCategory/goods_category_add.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/target/classes/com/yjxxt/manager/controller/GoodsCategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/target/classes/com/yjxxt/manager/controller/GoodsCategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/target/classes/com/yjxxt/manager/controller/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/target/classes/com/yjxxt/manager/controller/GoodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/target/classes/com/yjxxt/manager/service/IGoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/target/classes/com/yjxxt/manager/service/IGoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/target/classes/com/yjxxt/manager/service/impl/GoodsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/target/classes/com/yjxxt/manager/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/shop-manager/target/classes/views/goods/goodsCategory/goods_category_add.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/shop/shop-manager/target/classes/views/goods/goodsCategory/goods_category_add.ftl" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.8.1\MyRes" />
+        <option name="mavenHome" value="D:\apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1zCYMw8JWJal82xN0WilUsOjITV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/shop/shop-portal/src/main/java/com/yjxxt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop/shop-portal/src/main/resources/views" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java49\0991乐购商城\ego\shop10_商品分类文件图片上传\shop\shop-manager\src\main\resources\views\haha" />
+      <recent name="D:\java49\0991乐购商城\ego\shop10_商品分类文件图片上传\shop\shop-manager\src\main\resources\views\goods\goodsCategory" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yjxxt.portal.controller" />
+      <recent name="com.yjxxt.common.result" />
+      <recent name="com.yjxxt.rpc.vo" />
+      <recent name="com.yjxxt.manager.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java49\0991乐购商城\ego\shop10_商品分类文件图片上传\shop\shop-portal\src\main\resources\views" />
+      <recent name="D:\java49\0991乐购商城\ego\shop10_商品分类文件图片上传\shop\shop-rpc-provider\src\main\resources" />
+      <recent name="D:\java49\0991乐购商城\ego\shop10_商品分类文件图片上传\shop\shop-rpc-provider\src\main\java\com\yjxxt\rpc" />
+      <recent name="D:\java49\0991乐购商城\ego\shop10_商品分类文件图片上传\shop\shop-portal\src\main\resources" />
+      <recent name="D:\java49\0991乐购商城\ego\shop10_商品分类文件图片上传\shop\shop-portal\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PortalApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ELTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yjxxt.portal.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yjxxt.portal.service" />
+      <option name="MAIN_CLASS_NAME" value="com.yjxxt.portal.service.ELTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yjxxt.portal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yjxxt.portal.PortalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yjxxt.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yjxxt.manager.ShopManagerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopRpcProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shop-rpc-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yjxxt.rpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yjxxt.rpc.ShopRpcProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PortalApplication" />
+        <item itemvalue="Spring Boot.ShopRpcProviderApplication" />
+        <item itemvalue="JUnit.ELTest.test01" />
+        <item itemvalue="Spring Boot.ShopManagerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d1491ba-07c7-4dc9-bcd1-ecc92817eb48" name="Default Changelist" comment="" />
+      <created>1633653492391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633653492391</updated>
+      <workItem from="1633653493541" duration="1148000" />
+      <workItem from="1633656493267" duration="312000" />
+      <workItem from="1633656856917" duration="10716000" />
+      <workItem from="1633695479779" duration="15414000" />
+      <workItem from="1633920496154" duration="3417000" />
+      <workItem from="1633939251742" duration="4000" />
+      <workItem from="1633939276556" duration="17133000" />
+      <workItem from="1634006258767" duration="3412000" />
+      <workItem from="1634025798307" duration="2142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="498" y="0" key="#Project_Structure" timestamp="1633921690948">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1633921690948" />
+    <state x="722" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633675702289">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1633675702289" />
+    <state x="958" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1633748447886">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="958" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1633748447886" />
+    <state x="386" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1633653685860">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="386" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1633653685860" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1633950618753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1633950618753" />
+    <state width="1492" height="401" key="GridCell.Tab.0.bottom" timestamp="1634025316092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="401" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634025316092" />
+    <state width="1492" height="401" key="GridCell.Tab.0.center" timestamp="1634025316092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="401" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1634025316092" />
+    <state width="1492" height="401" key="GridCell.Tab.0.left" timestamp="1634025316092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="401" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1634025316092" />
+    <state width="1492" height="401" key="GridCell.Tab.0.right" timestamp="1634025316092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="401" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1634025316092" />
+    <state width="1492" height="401" key="GridCell.Tab.1.bottom" timestamp="1634025316092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="401" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634025316092" />
+    <state width="1492" height="401" key="GridCell.Tab.1.center" timestamp="1634025316092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="401" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1634025316092" />
+    <state width="1492" height="401" key="GridCell.Tab.1.left" timestamp="1634025316092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="401" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1634025316092" />
+    <state width="1492" height="401" key="GridCell.Tab.1.right" timestamp="1634025316092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="401" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1634025316092" />
+    <state width="1492" height="252" key="GridCell.Tab.2.bottom" timestamp="1633958821393">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="252" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633958821393" />
+    <state width="1492" height="252" key="GridCell.Tab.2.center" timestamp="1633958821393">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="252" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1633958821393" />
+    <state width="1492" height="252" key="GridCell.Tab.2.left" timestamp="1633958821393">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="252" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1633958821393" />
+    <state width="1492" height="252" key="GridCell.Tab.2.right" timestamp="1633958821393">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="252" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1633958821393" />
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1633675649141">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1633675649141" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1634026316491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1634026316491" />
+    <state x="950" y="193" key="chooseDestDirectoryDialog" timestamp="1633783390767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="950" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1633783390767" />
+    <state x="852" y="147" width="600" height="630" key="find.popup" timestamp="1633703204541">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="852" y="147" width="600" height="630" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1633703204541" />
+    <state x="356" y="76" key="new project wizard" timestamp="1633921414417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="76" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1633921414417" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1634025006010">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1634025006010" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shop/shop.iml" filepath="$PROJECT_DIR$/shop/shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop/shop-common/shop-common.iml" filepath="$PROJECT_DIR$/shop/shop-common/shop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop/shop-generator/shop-generator.iml" filepath="$PROJECT_DIR$/shop/shop-generator/shop-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop/shop-manager/shop-manager.iml" filepath="$PROJECT_DIR$/shop/shop-manager/shop-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop/shop-portal/shop-portal.iml" filepath="$PROJECT_DIR$/shop/shop-portal/shop-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop/shop-rpc-provider/shop-rpc-provider.iml" filepath="$PROJECT_DIR$/shop/shop-rpc-provider/shop-rpc-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shop10_商品分类文件图片上传.iml" filepath="$PROJECT_DIR$/.idea/shop10_商品分类文件图片上传.iml" />
+    </modules>
+  </component>
+</project>

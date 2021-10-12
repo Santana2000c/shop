@@ -1,5 +1,5 @@
 server:
-  port: 9091                                # 项目访问端口，默认 8080
+  port: 9090          # 项目访问端口，默认 8080
   servlet:                                 # 项目访问路径，默认 /
     context-path: /shop-manager
 
@@ -78,7 +78,6 @@ logging:
   level:
     com.yjxxt.manager.mapper: debug
 
-
 goodsCategory:
   list: goodsCategory:list:queryAllGoodsCatories
 
@@ -88,3 +87,12 @@ qiniu:
   sk: MvQFig8ILpJDsFY7-VxGy3mxqm3tYDHnIhyJCFZj
   bucket: mhms
   domain: http://r0nt7x38h.hd-bkt.clouddn.com/
+
+dubbo:
+  application:
+    name: shop-manager
+  registry:
+    address: zookeeper://192.168.110.101.2181?backup=192.168.110.100:2181,192.168.110.102:2181
+    timeout: 10000
+  consumer:
+    timeout: 20000
